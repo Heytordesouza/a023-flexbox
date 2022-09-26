@@ -8,7 +8,7 @@ main{
   gap: 20px;
   padding: 20px;
   width: 800px;
-  margin: 0 auto;
+  margin: 18vw 42vh;
   background-color: orange;
 }
 
@@ -23,16 +23,24 @@ section{
 }
 
 #section-1{
+  order: 2;
 }
 
 #section-2{
+  order: 3;
+  flex-grow: 1;
 }
 
 #section-3{
+  order: 4;
+  flex-grow: 2;
 }
 
 #section-4{
+  flex-basis: 200px;
+  order: 5;
 }
 
 #section-5{
+  order: 1;
 }
